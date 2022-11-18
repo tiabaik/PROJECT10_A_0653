@@ -28,7 +28,7 @@ const router = new VueRouter ({
                     name: 'AlbumPage',
                     meta: {title: 'Vuefire 2022'},
                     component: importView('AlbumPage'),
-                    
+
                 },
 
                 {
@@ -36,6 +36,7 @@ const router = new VueRouter ({
                     name: 'TugasPage',
                     meta: {title: 'Vuefire 2022'},
                     component: importView('TugasPage'),
+                    
                 }
             ]
         }
