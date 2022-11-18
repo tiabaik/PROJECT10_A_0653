@@ -15,6 +15,7 @@ const firebaseApp = initializeApp(firebaseConfig);
 
 export const db = getDatabase(firebaseApp);
 
+
 //tambahkan code untuk menginisialisasikan Firebase
 
 //tambahkan code untuk menginisialisasikan Realtime Database 

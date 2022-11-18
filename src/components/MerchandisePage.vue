@@ -218,6 +218,7 @@ export default {
             this.dialog = false;
             this.formType = 0;
             this.$refs.form.reset();
+            
         }
     },
 

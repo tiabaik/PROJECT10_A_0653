@@ -28,6 +28,7 @@ const router = new VueRouter ({
                     name: 'AlbumPage',
                     meta: {title: 'Vuefire 2022'},
                     component: importView('AlbumPage'),
+                    
                 },
 
                 {

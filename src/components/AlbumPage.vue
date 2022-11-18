@@ -136,6 +136,7 @@ export default {
             albums: [],
             dialog: false,
             dialogConfirm: false,
+            
             form: {
                 album: '',
                 artist: '',
