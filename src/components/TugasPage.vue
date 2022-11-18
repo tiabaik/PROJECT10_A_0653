@@ -1,10 +1,10 @@
 <template>
     <v-main>
-            <v-row justify="center" align="center" style="margin:3px;">
+            <v-row times new roman="center" align="center" style="margin:3px;">
                 <v-col v-for="album in albums" :key="album.album">
                 <v-card elevation="3" :style="{ backgroundColor: RandomColor() }">
                     <div style="text-align:center" >
-                    <v-card-title primary-title class="justify-center">{{ album.album }}</v-card-title>
+                    <v-card-title primary-title class="times new roman-center">{{ album.album }}</v-card-title>
                     </div>
                 </v-card>
             </v-col>
@@ -242,7 +242,7 @@ export default {
         RandomColor() {
         return `#${((Math.random() * 0xffffff) << 0).toString(16)}`;
         }
-        
+
     },
 
     computed: {
